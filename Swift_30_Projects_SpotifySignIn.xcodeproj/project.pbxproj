@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		6B3034792A10D2CC00CBA23C /* Swift_30_Projects_SpotifySignInApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3034782A10D2CC00CBA23C /* Swift_30_Projects_SpotifySignInApp.swift */; };
-		6B30347B2A10D2CC00CBA23C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B30347A2A10D2CC00CBA23C /* ContentView.swift */; };
+		6B30347B2A10D2CC00CBA23C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B30347A2A10D2CC00CBA23C /* SignInView.swift */; };
 		6B30347D2A10D2CF00CBA23C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B30347C2A10D2CF00CBA23C /* Assets.xcassets */; };
 		6B3034802A10D2CF00CBA23C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B30347F2A10D2CF00CBA23C /* Preview Assets.xcassets */; };
+		6B3034872A10ED0300CBA23C /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6B3034862A10ED0300CBA23C /* moments.mp4 */; };
+		6B3034892A10FADB00CBA23C /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3034882A10FADB00CBA23C /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B3034752A10D2CC00CBA23C /* Swift_30_Projects_SpotifySignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_30_Projects_SpotifySignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3034782A10D2CC00CBA23C /* Swift_30_Projects_SpotifySignInApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_30_Projects_SpotifySignInApp.swift; sourceTree = "<group>"; };
-		6B30347A2A10D2CC00CBA23C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6B30347A2A10D2CC00CBA23C /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		6B30347C2A10D2CF00CBA23C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B30347F2A10D2CF00CBA23C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B3034862A10ED0300CBA23C /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
+		6B3034882A10FADB00CBA23C /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				6B3034782A10D2CC00CBA23C /* Swift_30_Projects_SpotifySignInApp.swift */,
-				6B30347A2A10D2CC00CBA23C /* ContentView.swift */,
+				6B30347A2A10D2CC00CBA23C /* SignInView.swift */,
+				6B3034882A10FADB00CBA23C /* PlayerView.swift */,
+				6B3034862A10ED0300CBA23C /* moments.mp4 */,
 				6B30347C2A10D2CF00CBA23C /* Assets.xcassets */,
 				6B30347E2A10D2CF00CBA23C /* Preview Content */,
 			);
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B3034872A10ED0300CBA23C /* moments.mp4 in Resources */,
 				6B3034802A10D2CF00CBA23C /* Preview Assets.xcassets in Resources */,
 				6B30347D2A10D2CF00CBA23C /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B30347B2A10D2CC00CBA23C /* ContentView.swift in Sources */,
+				6B30347B2A10D2CC00CBA23C /* SignInView.swift in Sources */,
+				6B3034892A10FADB00CBA23C /* PlayerView.swift in Sources */,
 				6B3034792A10D2CC00CBA23C /* Swift_30_Projects_SpotifySignInApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
